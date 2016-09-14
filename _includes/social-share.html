@@ -9,14 +9,7 @@
 {% if any-share-links %}
 <section id = "social-share-section">
 
-  <!--- Share on Twitter -->
-  {% if site.share-links-active.twitter %}
-    <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}&via=daattali"
-      class="btn btn-social-icon btn-twitter" title="Share on Twitter"
-      data-ga-event=1 data-ga-category="share" data-ga-action="social-twitter" data-ga-label="{{ page.url }}">
-      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
-    </a>
-  {% endif %}
+  
 
   <!--- Share on Facebook -->
   {% if site.share-links-active.facebook %}
