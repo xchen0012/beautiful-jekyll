@@ -83,7 +83,7 @@ url-pretty: "xxechen.com"  # eg. "deanattali.com/beautiful-jekyll"
 comments :
     provider : disqus
     disqus :
-      short_name : cxi10122
+      short_name : xxechen-com
     livefyre :
       site_id : 123
     intensedebate :
