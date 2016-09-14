@@ -100,17 +100,15 @@ comments :
 
 # Output options (more information on Jekyll's site)
 timezone: "America/Vancouver"
-#markdown: kramdown
+markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
-markdown: redcarpet
-redcarpet:
-extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough", "with_toc_data"]
 
-#kramdown:
-#  input: GFM
+
+kramdown:
+  input: GFM
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
