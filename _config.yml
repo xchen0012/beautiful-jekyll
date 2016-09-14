@@ -79,20 +79,8 @@ url-pretty: "xxechen.com"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: "cxi10122"
-comments :
-    provider : disqus
-    disqus :
-      short_name : xxechen-com
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+disqus: "xxechen-com"
+
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
 
