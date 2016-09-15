@@ -171,6 +171,10 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
+      - name: "category"
+        field:
+          element: "category"
+          label: "Category"
 
 gems:
   - jekyll-paginate
